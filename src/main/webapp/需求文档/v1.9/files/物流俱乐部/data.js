@@ -1,0 +1,443 @@
+﻿$axure.loadCurrentPage({
+  "url":"物流俱乐部.html",
+  "generationDate":new Date(1432872221620.29),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"defbd19c59d44ba5a84b6a789d9c005f",
+    "type":"Axure:Page",
+    "name":"物流俱乐部",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6efdea153b8a4a16961899b154e4b96b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":281,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6bcaf1ffbf604d16990eb1de732aef9e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":281,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"b5ad86eeb9614f60afbf4996d62e6695",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":418,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8ce7b6997128467aa681a44d0cec40a2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":418,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"5b0d0e659e88436995e1fa901e23a10c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":555,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b2011ccdec6d4260b5bdd51de67fba1f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":555,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"6330605d97d349e7827ea0ff2ef94413",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":829,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2b26f4b46ef749acb4b6ca527ca97dc4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":829,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"f85e9cba727e4844b79436be23bc4555",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":692,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8f31a1d8177b480c80da6f0629d25ca6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":692,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"ab167150bb6c47c9bb3c8e3feaf74a79",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":144,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8b0d553a078b4356b4496699b09d9c3a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":144,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"b4884514f78d41e688083ba0d393003e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "location":{
+              "x":966,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"697afd2e04b64e22890ccdf621b15c83",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "location":{
+                  "x":966,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u0.png"}},
+{
+          "id":"4d4c5e1f3c77480ba154a0bdb86078f5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFE4E4E4},
+            "location":{
+              "x":1103,
+              "y":80},
+            "size":{
+              "width":137,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"86dde2aaee8247f292767b11ccf97f3f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFE4E4E4},
+                "location":{
+                  "x":1103,
+                  "y":80},
+                "size":{
+                  "width":137,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u14.png"}},
+{
+          "id":"aadc0d4a302a456b8f52bd2f64d03e9b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":144,
+              "y":130},
+            "size":{
+              "width":1096,
+              "height":380},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3a2f623835d446f0b371756e44c8d961",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":144,
+                  "y":130},
+                "size":{
+                  "width":1096,
+                  "height":380},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物流俱乐部/u16.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6efdea153b8a4a16961899b154e4b96b":{
+      "scriptId":"u0"},
+    "6bcaf1ffbf604d16990eb1de732aef9e":{
+      "scriptId":"u1"},
+    "b5ad86eeb9614f60afbf4996d62e6695":{
+      "scriptId":"u2"},
+    "8ce7b6997128467aa681a44d0cec40a2":{
+      "scriptId":"u3"},
+    "5b0d0e659e88436995e1fa901e23a10c":{
+      "scriptId":"u4"},
+    "b2011ccdec6d4260b5bdd51de67fba1f":{
+      "scriptId":"u5"},
+    "6330605d97d349e7827ea0ff2ef94413":{
+      "scriptId":"u6"},
+    "2b26f4b46ef749acb4b6ca527ca97dc4":{
+      "scriptId":"u7"},
+    "f85e9cba727e4844b79436be23bc4555":{
+      "scriptId":"u8"},
+    "8f31a1d8177b480c80da6f0629d25ca6":{
+      "scriptId":"u9"},
+    "ab167150bb6c47c9bb3c8e3feaf74a79":{
+      "scriptId":"u10"},
+    "8b0d553a078b4356b4496699b09d9c3a":{
+      "scriptId":"u11"},
+    "b4884514f78d41e688083ba0d393003e":{
+      "scriptId":"u12"},
+    "697afd2e04b64e22890ccdf621b15c83":{
+      "scriptId":"u13"},
+    "4d4c5e1f3c77480ba154a0bdb86078f5":{
+      "scriptId":"u14"},
+    "86dde2aaee8247f292767b11ccf97f3f":{
+      "scriptId":"u15"},
+    "aadc0d4a302a456b8f52bd2f64d03e9b":{
+      "scriptId":"u16"},
+    "3a2f623835d446f0b371756e44c8d961":{
+      "scriptId":"u17"}}});

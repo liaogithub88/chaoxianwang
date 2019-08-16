@@ -1,0 +1,24 @@
+.header{
+	width: 100%;clear: both;
+	.header-t{width:100%; height: 70px;
+			background: #004277;
+			.logo-rr{
+					margin-top: 10px;
+						a{height:15px;display: inline-block;
+							padding: 0 10px;color: #a3bed3;
+						  border-right: 1px solid #146eb6;
+						  &.selected{color: #69b839}
+						  &:last-child{
+						  	border-right:0;
+						  }
+						  &:hover{color: #69b839}
+						}
+			}
+	}
+	.header-b{width:100%; height: 45px;border-bottom: 2px solid #69b839;
+			clear: both;
+			background: $theme1;}
+}
+.logo-r{width: 110px; height: 50px;display: inline-block;
+					line-height: 50px;text-align: center;font-size: 14px; color: #2485d2;
+					background: url(../images/lti.png) no-repeat left top;}

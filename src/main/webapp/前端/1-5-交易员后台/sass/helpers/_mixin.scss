@@ -1,0 +1,16 @@
+@mixin border-radius ($radius) {
+    -webkit-border-radius:$radius;     
+       -moz-border-radius:$radius;
+            border-radius:$radius;
+}
+@mixin transition($seconds){
+	-webkit-transition:all $seconds ease-in-out;     
+       -moz-transition:all $seconds ease-in-out;
+            transition:all $seconds ease-in-out;
+}
+@mixin opacity($opacity){
+	-webkit-opacity:$opacity;     
+       -moz-opacity:$opacity;
+            opacity:$opacity;
+    filter: alpha(opacity = $opacity*100);
+}	

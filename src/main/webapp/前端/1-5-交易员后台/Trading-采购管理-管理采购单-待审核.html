@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trading-采购管理-管理采购单-待审核</title>
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/member.css">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body class="rel">
+	<div class="header">
+		<div class="header-t">
+			<div class="w1200 auto"><img src="images/logo.png" alt="" class="mt10 l"><span class="logo-r l mt10 ml20">交易员后台</span>
+					<span class="r logo-rr"><a href="" class="selected">张三</a><a href="">欢迎您登录!</a><a href="">[ 注销 ]</a><a href="">帐号设置</a></span>
+			</div>
+		</div>
+		<div class="header-b">
+			<div class="w1200 auto">
+				<div class="nav">
+				<ul class="auto">
+					<li class="selected"><a href=""><span class="icn1"></span><i>我的工作台</i></a></li>
+					<li><a href=""><span class="icn2"></span><i>会员管理</i></a></li>
+					<li><a href=""><span class="icn3"></span><i>供应管理</i></a></li>
+					<li><a href=""><span class="icn4"></span><i>采购管理</i></a></li>
+					<li><a href=""><span class="icn5"></span><i>承运管理</i></a></li>
+					<li><a href=""><span class="icn6"></span><i>托运管理</i></a></li>
+					<li><a href=""><span class="icn7"></span><i>统计报表</i></a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="w1200 auto contant rel">
+		<div class="breadcrumbs"><a href="">交易员后台</a> > <a href="">我的工作台</a> > <a>待处理单据</a></div>
+		<!-- 左侧start -->
+		<div class="c-left">
+					<div class="about-t">
+					<span class="f20 g6 ml30 mt15 dib">采购管理</span>
+				</div>
+					<div class="l-menu">
+						<ul class="nav_li">
+					<li><a href="">采购管理
+</a></li>
+					<li class="selected"><a href="">管理采购单</a>
+                        <ul>
+                            <li><a href="">待审核</a></li>
+                            <li><a href="">进行中</a></li>
+                            <li><a href="">已过期</a></li>
+                            <li><a href="">已完成</a></li>
+                            <li><a href="">已关闭</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">管理采购订单</a></li>
+						</ul>
+					</div>
+				</div>
+		<!-- 左侧end -->
+		<!-- 右侧start -->
+		<div class="c-right c-right1">
+            <!-- 搜索列表 -->
+            <div class="search-member">
+                 <dl>
+                    <dd>
+                        <label for="">
+                            <p class="mt5" style="width:92px;">采购单状态：</p>
+                            <select name="" id="" class="selectpicker w110" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        </label>
+                        <label for="">
+                            <p class="mt5">会员名称：</p>
+                            <select name="" id="" class="selectpicker w110" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        </label>
+                        <label for="">
+                            <p class="mt5">订单号：</p>
+                            <input type="text" class="input02 w100 h30 cus1">
+                        </label>
+                                    <label for="">
+                                        <p style="width:92px;">下单时间：</p>
+                                        <input type="text" class="input02 w100 date">
+                                        <span class="mt5">日</span>
+                                        <select class="w100">
+                                            <option value="0">请选择</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <span class="mt5">时</span>
+                                        <input type="text" class="input02 w50 cus1">
+                                        <span class="mt5">分</span>
+                                    </label>
+                                    <label for="">
+                                        <span class="mt5">至</span>
+                                        <input type="text" class="input02 w100 date">
+                                        <select class="w100">
+                                            <option value="0">请选择</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <span class="mt5">时</span>
+                                        <input type="text" class="input02 w50 cus1">
+                                        <span class="mt5">分</span>
+                                    </label>
+                                     <input type="submit" class="btn01 mt10 ml20 l" value="搜索">
+                                </dd>
+                </dl>
+            </div>   
+            <div class="lib-tab5 xg-fb">
+                    <table>
+                        <thead>
+                              <tr>
+                                <th width="110px;">编号</th>
+                                <th>标题</th>
+                                <th width="200px;">采购内容</th>
+                                <th width="160px;">发布时间</th>
+                                <th width="100px;">状态</th>
+                                <th width="120px;" style="text-align: center;">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>201505006</td>
+                                <td>我想要采购2吨进口的鸡翅</td>
+                                <td>采购牛肉2.5吨，简介资源单简介资源单简介资源单简介资源单简介资源单简介...</td>
+                                <td>2015-05-05 14：15</td>
+                                <td>
+                                    待审核
+                                </td>
+                                <td>
+                                    <a href="member-供应商管理-我参与的竞价-详情页.html" class="btn13">审核</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- page -->
+                    <div class="list-page">
+                        <ul>
+                            <li><a href="javascript:;" class="prev-listPage prev-disable">上一页</a></li>
+                            <li><a href="javascript:;" id="hover-listPage">1</a></li>
+                            <li><a href="javascript:;">2</a></li>
+                            <li><a href="javascript:;">3</a></li>
+                            <li><a href="javascript:;">4</a></li>
+                            <li><a href="javascript:;" class="omitted">...</a></li>
+                            <li><a href="javascript:;">100</a></li>
+                            <li><a href="javascript:;" class="next-listPage">下一页</a></li>
+                            <li><span>到第</span><input type="text"><span>页</span></li>
+                            <li><a href="javascript:;" class="jump-page">确定</a></li>
+                        </ul>
+                    </div>
+                </div>      
+ 
+           
+		<!-- 左侧end -->
+	</div></div>
+	<div class="footer">
+		<span class="f14 g3 mt25 dib">© 2014  深圳市超鲜食品有限公司  版权所有</span>
+	</div>
+<div class="up_box prev_con">
+        <div class="up_box_ti"><span class="up_box_colse"></span>
+        <span class="dib ml30 gf f12">忽略详情</span></div>
+        <div class="pop-con mt20">
+            <dl>
+                <dt class="mr10">忽略原因：</dt>
+                <dd><select name="" id="" class="selectpicker w120 h30" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select></dd>
+            </dl>
+            <dl>
+                <dt class="mr10">备注：</dt>
+                <dd><textarea name="" id=""></textarea></dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dd><input type="submit" value="确认" class="btn01 submit"></dd>
+            </dl>
+        </div>
+
+    </div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.popup_box.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+    $(function(){
+        $(window).pop_up({
+                popbox:$(".up_box"),
+                popclick:$("a.hu-lue"),
+                colseclick:$(".up_box_colse"),
+                popboxwid:560,
+                popboxheig:410
+            })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.picScroll-left {
+  position: relative;
+  width: 700px;
+  margin: 30px auto 40px;
+  .hd {
+    position: relative;
+    .prev {
+      display: block;
+      width: 12px;
+      height: 23px;
+      overflow: hidden;
+      cursor: pointer;
+      background: url("../images/icon/ab_18.png") no-repeat;
+      position: absolute;
+      left: -25px;
+      bottom: -80px;
+      &:hover {
+        background: url("../images/icon/hab_18.png") no-repeat;
+      }
+    }
+    .next {
+      display: block;
+      width: 12px;
+      height: 23px;
+      overflow: hidden;
+      cursor: pointer;
+      background: url("../images/icon/ab_21.png") no-repeat;
+      position: absolute;
+      right: -35px;
+      bottom: -80px;
+      &:hover {
+        background: url("../images/icon/hab_21.png") no-repeat;
+      }
+    }
+    .prevStop {
+      background-position: -60px 0;
+    }
+    .nextStop {
+      background-position: -60px -50px;
+    }
+    ul {
+      float: right;
+      overflow: hidden;
+      zoom: 1;
+      margin-top: 10px;
+      zoom: 1;
+      li {
+        float: left;
+        width: 9px;
+        height: 9px;
+        overflow: hidden;
+        margin-right: 5px;
+        text-indent: -999px;
+        cursor: pointer;
+        background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+        &.on {
+          background-position: 0 0;
+        }
+      }
+    }
+  }
+  .bd {
+    width: 700px;
+    margin: 0;
+    overflow-x: hidden;
+    ul {
+      overflow: hidden;
+      zoom: 1;
+      li {
+        margin: 0 15px 0 0;width: 160px;
+        float: left;overflow: hidden;
+        text-align: center;vertical-align:middle;
+        .pic {
+          width: 158px;height: 118px;border: 1px solid #ccc;
+          text-align: center;display: table-cell;vertical-align:middle;
+          img {
+            max-width: 158px;margin-bottom: 10px;
+            display:table-cell;
+            vertical-align: middle;text-align: center;
+          }
+          a {
+            &:hover img {
+              border-color: #999;
+            }
+            font-size: 12px;
+            color: #666;
+          }
+        }
+        .title {
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

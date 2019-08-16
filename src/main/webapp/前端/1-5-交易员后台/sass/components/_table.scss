@@ -1,0 +1,501 @@
+@charset "UTF-8";
+/* CSS Document */
+.lib-tab5 table {
+  float: left;
+  width: 100%;
+  table-layout: fixed;
+  margin: 15px 0 0 0;
+  tbody{
+          tr:nth-child(odd){
+            background: #fafdff
+          }
+          tr:hover{
+            background: #f3ffec;
+          }
+      }
+  th {
+    height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 16px;
+    text-align: center;
+    color: #146eb6;
+    font-weight: normal;
+    text-indent: 1px;
+  }
+  td {
+    position: relative;
+    padding: 15px 5px;
+    border-bottom: 1px solid #dfdfdf;
+    z-index: 1;text-align: center;
+    a.dj-read{width: 68px; height: 20px;display: inline-block;line-height: 20px; text-align: center;color: $theme1; border: 1px solid $theme1;
+            @include transition(.2S);
+            &:hover{background:$theme1;color: #fff }
+          }
+    p {
+      line-height: 24px;
+    }
+  }
+  .btn04, .btn08, .btn09 {
+    margin: 5px auto;
+  }
+  .name {
+    display: block;
+    float: left;
+    width: 160px;
+    color: #333;
+    &:hover {
+      color: #146eb6;
+    }
+  }
+  .attention {
+    display: block;
+    float: left;
+    width: 75px;
+    color: #146eb6;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .no-attention {
+    display: block;
+    float: left;
+    width: 75px;
+    color: #b61b1f;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+// .xfp-hy table thead tr th{text-align: left;text-indent: 20px;}
+.xfp-hy table tbody tr td{height: 37px;}
+.xfp-hy td.c-z a{padding: 7px 8px;border: 1px solid #eee;margin-right: 2px;
+                 @include border-radius(2px);color:$theme1;background: #fff;
+                }
+.xfp-hy td.c-z a.cz-read{width: 68px; height: 20px;padding:0;border:1px solid $theme1;line-height: 20px;color: $theme1;display: inline-block;
+                          @include transition(.2S);
+                          &:hover{background:$theme1;color: #fff; }
+}
+.hu-lue{cursor: pointer;}
+
+/*首页 交易行情02*/
+
+.quotes02-list {
+  float: left;
+  width: 620px;
+  table-layout: fixed;
+  margin: 20px 0 0 20px;
+  th {
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #438bc5;
+  }
+  td {
+    width: 50%;
+    table {
+      width: 100%;
+      table-layout: fixed;
+      margin: 15px 0 0 0;
+      td {
+        border: none;
+        line-height: 28px;
+        color: #666;
+      }
+    }
+  }
+}
+
+/*资源*/
+
+.lib-tab4 table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 15px 0 0 0;
+  th {
+    height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 16px;
+    text-align: left;
+    color: #146eb6;
+    font-weight: normal;
+  }
+  td {
+    padding: 15px 5px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #333;
+  }
+  .btn04 {
+    margin: 5px auto;
+  }
+  .name {
+    display: block;
+    float: left;
+    width: 160px;
+    color: #333;
+    &:hover {
+      color: #146eb6;
+    }
+  }
+  .attention {
+    display: block;
+    float: left;
+    width: 75px;
+    color: #146eb6;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .no-attention {
+    display: block;
+    float: left;
+    width: 75px;
+    color: #b61b1f;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/*个人中心 我的收藏*/
+
+.lib-tab5 {
+  table {
+    float: left;
+    width: 100%;
+    table-layout: fixed;
+    margin: 15px 0 0 0;
+    thead{
+      tr {
+            background: #dceffe;
+         }
+    }
+    th {
+      height: 40px;
+      border-bottom: 1px solid #dfdfdf;
+      font-size: 16px;
+      text-align: left;
+      color: #146eb6;
+      font-weight: normal;
+      text-indent: 1px;
+    }
+    td {
+      position: relative;
+      padding: 15px 5px;
+      border-bottom: 1px solid #dfdfdf;
+      color: #333;
+      z-index: 1;
+      p {
+        line-height: 24px;
+      }
+    }
+    td.red{color: red;}
+    td.g69b839{color: #69b839}
+    .btn04, .btn08, .btn09 {
+      margin: 5px auto;
+    }
+    .name {
+      display: block;
+      float: left;
+      width: 160px;
+      color: #333;
+      &:hover {
+        color: #146eb6;
+      }
+    }
+    .attention {
+      display: block;
+      float: left;
+      width: 75px;
+      color: #146eb6;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .no-attention {
+      display: block;
+      float: left;
+      width: 75px;
+      color: #b61b1f;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .carriers {
+    margin: 0;
+  }
+}
+
+/*我关注的供应商*/
+
+.carriers .img {
+  width: 90px;
+  height: 90px;
+  margin: 0 0 0 20px;
+  -moz-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+  behavior: url(pie.htc);
+  overflow: hidden;
+  img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/*我的收藏 物流路线*/
+
+.logistics-route td {
+  text-align: left;
+  .img {
+    width: 100%;
+    img {
+      display: block;
+      width: 130px;
+      height: 56px;
+      border: 1px solid #dfdfdf;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      behavior: url(pie.htc);
+      overflow: hidden;
+    }
+  }
+  p {
+    width: 100%;
+    line-height: 24px;
+    color: #666;
+  }
+}
+
+/*我的积分*/
+
+.table-points td {
+  font-size: 14px;
+}
+
+/*上传资源*/
+
+.method-table {
+  table {
+    table-layout: fixed;
+    width: 100%;
+    margin: 10px 0;
+    th {
+      border: 1px solid #dfdfdf;
+      background: #e9f5ff;
+      color: #333;
+      font-size: 14px;
+      text-indent: 5px;
+      font-weight: normal;
+    }
+    td {
+      border: 1px solid #dfdfdf;
+      padding: 5px 3px;
+      text-align: center;
+      input {
+        width: 94%;
+        height: 25px;
+      }
+    }
+  }
+  .btn04 {
+    margin: 0 auto;
+    behavior: none;
+  }
+  .btn01 {
+    float: left;
+    margin: 10px 0;
+  }
+  .bzxx{width: 68px; height: 20px;display: inline-block;line-height: 20px; text-align: center;color: $theme1; border: 1px solid $theme1;
+            @include transition(.2S);
+            &:hover{background:$theme1;color: #fff }}
+  .del{width: 68px; height: 20px;display: inline-block;line-height: 20px; text-align: center;color: #e60012; border: 1px solid #e60012;
+            @include transition(.2S);
+            &:hover{background:#e60012;color: #fff }}
+}
+
+/*我收到的订单*/
+
+.order-received {
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+  table {
+    float: left;
+    table-layout: fixed;
+    width: 100%;
+    td table {
+      border-spacing: 0;
+      td {
+        border: none;
+      }
+      tr {
+        border-bottom: 1px solid #dfdfdf;
+      }
+    }
+  }
+  thead tr {
+    background: #f7fbff;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0 0 10px 0;
+  }
+  th {
+    padding: 15px 0;
+    font-size: 16px;
+    color: #146eb6;
+    font-weight: normal;
+  }
+  td {
+    position: relative;
+    border: 1px solid #dfdfdf;
+    vertical-align: middle;
+    text-align: center;
+    color: #666;
+    z-index: 1;
+  }
+  table {
+    .btn04 {
+      margin: 5px auto;
+    }
+    input {
+      width: 20px;
+      height: 20px;
+    }
+    .check-all {
+      display: block;
+      float: left;
+      margin: 2px 2px 0 15px;
+    }
+    label {
+      display: block;
+      float: left;
+    }
+  }
+}
+
+.order-tit {
+  div {
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 10px;
+    color: #666;
+  }
+  .buyers {
+    width: 260px;
+  }
+  .num {
+    width: 210px;
+  }
+  .time {
+    width: 230px;
+  }
+  .tel {
+    width: 200px;
+  }
+}
+
+.pro-infors {
+  ul {
+    float: left;
+    width: 100%;
+  }
+  li {
+    float: left;
+    border-left: 1px solid #dfdfdf;
+    text-align: left;
+  }
+  td {
+    padding: 20px 0;
+    span {
+      color: #e42122;
+    }
+  }
+}
+
+.order-received {
+  td .pro-totalPrice {
+    color: #e42122;
+  }
+  .pro-note {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+/*交易员评价*/
+
+.order-subtit {
+  background: #f7fbff;
+  td {
+    height: 40px;
+    font-size: 16px;
+    text-align: left;
+    color: #146eb6;
+    font-weight: normal;
+    text-indent: 5px;
+  }
+}
+
+/*托运管理 我的托运信息详情页*/
+
+.table-detail {
+  table-layout: fixed;
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+  tr {
+    border-bottom: 1px solid #dfdfdf;
+  }
+  td {
+    padding: 15px 0;
+    p {
+      text-align: left;
+      text-indent: 5px;
+      line-height: 24px;
+      color: #666;
+    }
+  }
+  a {
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+}
+.xg-fb table th{ text-align: center;}
+/*搜索表格*/
+.search-table {
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+  table {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    th {
+      height: 44px;
+      background: #e9f5ff;
+      border: 1px solid #e6e6e6;
+      font-size: 16px;
+      font-weight: normal;
+      color: #333;
+    }
+    td {
+      border: 1px solid #e6e6e6;
+      padding: 15px 5px;
+      color: #333;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+  .btn04 {
+    margin: 5px auto;
+  }
+}

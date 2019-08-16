@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>图片放大</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.Imgrotation.js"></script>
+    <script>
+
+        $(function(){
+            $('#img').imgRotate();
+        })
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        #bigBox img{
+            position: relative;
+            margin: 0 auto;
+            top:0;
+            left:0;
+            cursor: move;
+        }
+        #img{
+            position: relative;
+            width: 200px;
+            margin: 0 auto;
+        }
+        #imgOperate{
+            position: fixed;
+            top:5px;
+            right:5px;
+            width: 50px;
+            z-index: 1000;
+        }
+        #imgOperate li{
+            width: 50px;
+            height: 40px;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            font-size: 12px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        #bigBox{
+            position: fixed;
+            top:0;
+            left:0;
+            right: 0;
+            bottom:0;
+            width: 99%;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+            z-index: 1000;
+        }
+        #bigBox span{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            text-align: center;
+        }
+        #bigBox img{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<img id="img" src="img.jpg" alt="" imgSrc="img.jpg"/>
+<script>
+    $(function(){
+        /*--------------拖曳效果----------------
+         *原理：标记拖曳状态dragging ,坐标位置iX, iY
+         * mousedown:fn(){dragging = true, 记录起始坐标位置，设置鼠标捕获}
+         * mouseover:fn(){判断如果dragging = true, 则当前坐标位置 - 记录起始坐标位置，绝对定位的元素获得差值}
+         * mouseup:fn(){dragging = false, 释放鼠标捕获，防止冒泡}
+         */
+        var dragging = false;
+        var iX, iY;
+        $("#img").mousedown(function(e) {
+            dragging = true;
+            iX = e.clientX - this.offsetLeft;
+            iY = e.clientY - this.offsetTop;
+//            this.setCapture && this.setCapture();
+            return false;
+        });
+        document.onmousemove = function(e) {
+            if (dragging) {
+                var e = e || window.event;
+                var oX = e.clientX - iX;
+                var oY = e.clientY - iY;
+                $("#img").css({"left":oX + "px", "top":oY + "px"});
+                return false;
+            }
+        };
+        $(document).mouseup(function(e) {
+            dragging = false;
+//            $("#img")[0].releaseCapture();
+            e.cancelBubble = true;
+        })
+
+    })
+</script>
+</body>
+</html>

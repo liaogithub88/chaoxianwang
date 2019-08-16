@@ -1,0 +1,142 @@
+﻿$axure.loadCurrentPage({
+  "url":"提示供应商才能报价.html",
+  "generationDate":new Date(1432872215015.91),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0c8d537e8ffb48fb80d50f9fb266ca93",
+    "type":"Axure:Page",
+    "name":"提示供应商才能报价",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"ffa2d61a5e524906bea655ad40d416c8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":160,
+              "y":120},
+            "size":{
+              "width":540,
+              "height":260}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a67f559a00f04c6d8aad22496ceda3c7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":160,
+                  "y":120},
+                "size":{
+                  "width":540,
+                  "height":260}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提示供应商才能报价/u0.png"}},
+{
+          "id":"5f1a8cd88e484c28b7c97d6b6a8dddfe",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":250,
+              "y":204},
+            "size":{
+              "width":292,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"43bd1ef45e904028b616bcec50525492",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":250,
+                  "y":204},
+                "size":{
+                  "width":292,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8741c4e8bf0143ff83928b68baad299a",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":250,
+              "y":290},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"18d4b8a1c2234fff876266d1f6872811",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":460,
+              "y":290},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ffa2d61a5e524906bea655ad40d416c8":{
+      "scriptId":"u0"},
+    "a67f559a00f04c6d8aad22496ceda3c7":{
+      "scriptId":"u1"},
+    "5f1a8cd88e484c28b7c97d6b6a8dddfe":{
+      "scriptId":"u2"},
+    "43bd1ef45e904028b616bcec50525492":{
+      "scriptId":"u3"},
+    "8741c4e8bf0143ff83928b68baad299a":{
+      "scriptId":"u4"},
+    "18d4b8a1c2234fff876266d1f6872811":{
+      "scriptId":"u5"}}});

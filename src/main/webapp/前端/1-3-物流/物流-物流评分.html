@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>物流-物流评分</title>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--网站顶部-->
+    <div class="top">
+        <div class="container">
+            <div class="top-left">
+                <p>欢迎来到超鲜网</p>
+                <a href="javascript:;">请登录</a>
+                <span>|</span>
+                <a href="javascript:;">免费注册</a>
+            </div>
+            <div class="top-right">
+                <ul>
+                    <li><a href="javascript:;">客服热线：<span>400-888-8888</span>&nbsp;&nbsp;|</a></li>
+                </ul>
+                <div class="attention">
+                    <p>关注我们：</p>
+                    <a class="weixin" href="javascript:;">
+                        <img src="images/top-icon01.png" alt=""/>
+                        <div class="weixin-erweima">
+                            <i></i>
+                            <img src="images/erweima.png" alt=""/>
+                        </div>
+                    </a>
+                    <a class="xl" href="javascript:;"><img src="images/top-icon02.png" alt=""/></a>
+                    <a class="tx" href="javascript:;"><img src="images/top-icon03.png" alt=""/></a>
+                    <span>|</span>
+                </div>
+                <a class="version" href="javascript:;">English</a></div>
+        </div>
+    </div>
+    <!--网站头部-->
+    <header>
+        <div class="container">
+             <a href="javascript:;" class="logo">
+               <img src="images/logistics-logo.png" alt=""/>
+             </a>
+             <div class="slogan">超鲜物流</div>
+             <div class="app">
+                 <img src="images/app-erwaima.png" alt="">
+                 <div class="app-right">
+                     <h6><i class="fa fa-mobile"></i>手机物流APP</h6>
+                     <p><i class="fa fa-apple"></i>&nbsp;苹果&nbsp;&nbsp;<i class="fa fa-android"></i>&nbsp;安卓</p>
+                 </div>
+             </div>
+             <ul class="header-help">
+                <li><a href="javascript:;">|&nbsp;&nbsp;<i class="fa fa-question-circle"></i>&nbsp;&nbsp;帮助中心&nbsp;&nbsp;|</a></li>
+                <li><a href="javascript:;">&nbsp;&nbsp;<i class="fa fa-meh-o"></i>&nbsp;&nbsp;我的关注&nbsp;&nbsp;|</a></li>
+                <li><a href="javascript:;">&nbsp;&nbsp;<i class="fa fa-comments-o"></i>&nbsp;&nbsp;联系客服&nbsp;&nbsp;|</a></li>
+                <li><a href="javascript:;">&nbsp;&nbsp;<i class="fa fa-share-alt-square">&nbsp;&nbsp;</i>网站导航&nbsp;&nbsp;|</a></li>
+             </ul>
+        </div>
+    </header>
+    <!--网站导航-->
+    <nav>
+        <div class="container">
+            <dl>
+                <dd><a class="selected" href="javascript:;">首页</a></dd>
+                <dd><a href="javascript:;">我要找车</a></dd>
+                <dd><a href="javascript:;">我要找货</a></dd>
+                <dd><a href="javascript:;">查询线路</a></dd>
+                <dd><a href="javascript:;">仓库网点</a></dd>
+                <dd><a href="javascript:;">物流跟踪</a></dd>
+                <dd><a href="javascript:;">物流动态</a></dd>
+                <dd><a href="javascript:;">物流俱乐部</a></dd>
+            </dl>
+        </div>
+    </nav>
+    <!-- 内容主体区 -->
+    <div class="content">
+        <div class="container">
+            <!-- 面包屑导航 -->
+            <div class="bread-crumbs">
+                <a href="javascript:;">物流</a>
+                <span><i class="fa fa-angle-double-right"></i></span>
+                <a href="javascript:;" class="selected">我要找车</a>
+            </div>
+             <!-- 物流左侧 -->
+             <div class="member-left">
+                  <!-- 公司介绍 -->
+                  <div class="left-intro">
+                      <div class="img">
+                          <img src="images/logistics-intro01.png" alt="">
+                      </div>
+                      <h6>上海昊昕物流有限公司</h6>
+                      <p>服务线路：<span>69229条</span></p>
+                      <p>服务网点：<span>376家</span></p>
+                      <div class="tel">
+                          <p>服务电话：</p>
+                          <p>021-54437026/ 13916558638/ 13774298126/ 1891705710</p>
+                      </div>
+                  </div>
+                  <!-- 主要货物 -->
+                  <div class="zylx">
+                      <div class="tit">主要货物线路</div>
+                      <div class="con">
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                        <span>北京</span>
+                          <span>北京</span>
+                          <span>北京</span>
+                          <span>北京</span>
+                      </div>
+                  </div>
+             </div>
+             <!-- 会员右侧 -->
+             <div class="member-right">
+                  <!-- 综合评分 -->
+                  <div class="right-zhpf">
+                      <div class="tit">
+                          <img src="images/logistics-pf01.png" alt="">
+                          <p>综合评分<span>4.4</span>分</p>
+                      </div>
+                      <div class="con">
+                          <!--物流评分切换  -->
+                          <div class="lib-tab7">
+                              <ul class="lib-menu">
+                                  <li class="hover"><p>服务态度<span>4.5</span>分</p></li>
+                                  <li><p>运输费用<span>4.5</span>分</p></li>
+                                  <li><p>运输时效<span>4.5</span>分</p></li>
+                                  <li><p>货物安全<span>4.5</span>分</p></li>
+                              </ul>
+                              <div class="lib-content">
+                                  <div class="child-content" style="display: block;">
+                                      <!-- 总评价 -->
+                                      <div class="total-points">
+                                        <div class="total-star">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                        </div>
+                                        <div class="total-out"><span>4</span>分</div>
+                                        <div class="total-people">共有<span>8077</span>人打分</div>
+                                      </div>
+                                      <!-- 单条评价 -->
+                                      <ul class="alone-points">
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="alone-out"><span>5</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="2000">39.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>4</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="4000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                        <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>3</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="1000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>2</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="500">90.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>1</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="577">1.86</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                  </div>
+                                  <div class="child-content" style="display: none;">
+                                     <!-- 总评价 -->
+                                      <div class="total-points">
+                                        <div class="total-star">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                        </div>
+                                        <div class="total-out"><span>4</span>分</div>
+                                        <div class="total-people">共有<span>8077</span>人打分</div>
+                                      </div>
+                                      <!-- 单条评价 -->
+                                      <ul class="alone-points">
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="alone-out"><span>5</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="3000">39.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>4</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="3000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                        <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>3</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="1000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>2</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="500">90.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>1</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="577">1.86</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                  </div>
+                                  <div class="child-content" style="display: none;">
+                                     <!-- 总评价 -->
+                                      <div class="total-points">
+                                        <div class="total-star">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                        </div>
+                                        <div class="total-out"><span>4</span>分</div>
+                                        <div class="total-people">共有<span>8077</span>人打分</div>
+                                      </div>
+                                      <!-- 单条评价 -->
+                                      <ul class="alone-points">
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="alone-out"><span>5</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="1000">39.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>4</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="5000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                        <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>3</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="1000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>2</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="500">90.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>1</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="577">1.86</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                  </div>
+                                  <div class="child-content" style="display: none;">
+                                     <!-- 总评价 -->
+                                      <div class="total-points">
+                                        <div class="total-star">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                          <img src="images/star-icon06.png" alt="">
+                                        </div>
+                                        <div class="total-out"><span>4</span>分</div>
+                                        <div class="total-people">共有<span>8077</span>人打分</div>
+                                      </div>
+                                      <!-- 单条评价 -->
+                                      <ul class="alone-points">
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                          </div>
+                                          <div class="alone-out"><span>5</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="2500">39.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>4</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="2500">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                        <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>3</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="1000">18.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>2</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="500">90.6</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="alone-star">
+                                              <i class="fa fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                              <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <div class="alone-out"><span>1</span>分</div>
+                                          <div class="points-progress">
+                                            <div class="points-box"></div>
+                                            <div class="num">
+                                              <span data-num="577">1.86</span>%
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                           <!--物流评分切换  结束-->
+                      </div>
+                  </div>
+                  <!-- 评论列表 -->
+                  <div class="comment-list">
+                    <select class="w125">
+                      <option value="">有评论的回复1</option>
+                      <option value="1">有评论的回复2</option>
+                      <option value="1">有评论的回复3</option>
+                    </select>
+                    <table>
+                      <tr>
+                        <td width="590px;"><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td width="120px;">
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="javascript:;" class="commnet">非常不错的物流公司，是你们让我改变了网上不靠谱的看法，无论大小件都一样的认真负责。很多次的感动，真不愧是全国最强的物流公司</a></td>
+                        <td>
+                          <p>杭州市->成都市</p>
+                          <p>2015-05-11</p>
+                        </td>
+                        <td>
+                          <div class="name">h**i</div>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- page -->
+                    <div class="list-page">
+                        <ul>
+                            <li><a href="javascript:;" class="prev-listPage prev-disable">上一页</a></li>
+                            <li><a href="javascript:;" id="hover-listPage">1</a></li>
+                            <li><a href="javascript:;">2</a></li>
+                            <li><a href="javascript:;">3</a></li>
+                            <li><a href="javascript:;">4</a></li>
+                            <li><a href="javascript:;" class="omitted">...</a></li>
+                            <li><a href="javascript:;">100</a></li>
+                            <li><a href="javascript:;" class="next-listPage">下一页</a></li>
+                            <li><span>到第</span><input type="text"><span>页</span></li>
+                            <li><a href="javascript:;" class="jump-page">确定</a></li>
+                        </ul>
+                    </div>
+                  </div>
+             </div>
+        </div>
+    </div>
+    <!--网站底部-->
+    <footer>
+        <div class="copy">
+            <div class="copy-nav">
+                <a href="javascript:;">关于我们</a>
+                <span>|</span>
+                <a href="javascript:;">法律声明</a>
+                <span>|</span>
+                <a href="javascript:;">诚聘英才</a>
+                <span>|</span>
+                <a href="javascript:;">联系我们</a>
+                <span>|</span>
+                <a href="javascript:;">友情链接</a>
+            </div>
+            <p>Copyright <i class="fa fa-copyright"></i> 超鲜网 粤ICP备 13013915号-3  ICP证：粤B2-201401448</p>
+        </div>
+    </footer>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/jquery.selectBox.js"></script>
+<script type="text/javascript">
+    jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:6});
+    jQuery(".pro-scroll").each(function(){
+        $(this).slide({mainCell:".bd ul",autoPage:true,effect:"leftLoop",pnLoop:true,autoPlay:false,vis:6});
+    });
+</script>
+<script type="text/javascript">
+$(function(){
+  $('.right-zhpf .child-content').each(function(){
+      // 评分系统
+     var index = $(this).index();
+     var totalPeople = $(this).find('.total-people span').html();
+     var totalPoint = $(this).find('.total-out span');
+     var totalStar = $(this).find('.total-star');
+     var aloneEle = $(this).find('.alone-points li');
+     //进度条初始长度
+     var widBox = 440;
+     // 单条评分
+     var subArray = [];
+     var len = aloneEle.length;
+     for(var i = 0; i<len; i++){
+        var basicPoint = aloneEle.eq(i).find('.alone-out span').html();
+        var alonePoint = aloneEle.eq(i).find('.num span').attr('data-num');
+        var aloneWid = (alonePoint/totalPeople).toFixed(4);
+        aloneEle.eq(i).find('.num span').html((aloneWid*100).toFixed(2))
+        aloneEle.eq(i).find('.points-box').css({
+            'width':aloneWid*widBox+'px'
+        });
+        subArray[i] = parseFloat(alonePoint*basicPoint);
+      }
+      if(subArray.length>0){subPoint=0};
+      for(var j=0;j<subArray.length;j++){
+        subPoint +=subArray[j];
+      }
+      // 小综合评分
+      var aloneSub = (subPoint/totalPeople).toFixed(1);
+      totalPoint.html(aloneSub);
+      $('.right-zhpf .lib-menu li').eq(index).find('span').html(aloneSub);
+      for(var k= 0; k<len-1;k++){
+        var pointCon = $('.child-content').eq(k).find('.total-out span').html();
+        var point = pointCon.split(".");
+        var pointsArray = [];
+        var starOn ='<img src="images/star-icon06.png" alt="">';
+        var starOff ='<img src="images/star-icon07.png" alt="">';
+        var starHalf ='<img src="images/star-icon08.png" alt="">';
+        for(var m = 0; m<point[0]; m++){
+          pointsArray.push(starOn);
+        };
+        if(point[1]){
+          pointsArray.push(starHalf);
+        };
+        if(pointsArray.length<5){
+          for(var n = 0; n<(5-pointsArray.length);n++){
+            pointsArray.push(starOff);
+          }
+        }
+        var pointsHtml = $(pointsArray.join(''));
+        totalStar.html('');
+        pointsHtml.appendTo(totalStar);
+        $('.lib-tab7 .lib-menu li').eq(k).find('span').html(pointCon);
+      }
+  });
+  // 总综合评分
+  var $Li =$('.right-zhpf .lib-menu li');
+  var nums = $Li.length;
+  var PointsArray = [];
+  for(var q = 0; q<nums; q++){
+       PointsArray[q] =function(p){
+          var pos =parseFloat($Li.eq(p).find('span').html());
+             return pos;
+       }(q);
+  };
+  Points =(PointsArray[0]+PointsArray[1]+PointsArray[2]+PointsArray[3]).toFixed(2);
+  Point = Points/nums;
+  $('.right-zhpf .tit span').html(Point);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.search {
+  width: 230px;
+  height: 30px;
+  line-height: 30px;
+  background: #dcdcdc;
+  input {
+    width: 208px;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    border: none;
+    margin: 1px 0 0 1px;
+    color: #ccc;
+  }
+  button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    width: 28px;
+    height: 28px;
+    background: #c1c9d1;
+    cursor: pointer;
+  }
+}

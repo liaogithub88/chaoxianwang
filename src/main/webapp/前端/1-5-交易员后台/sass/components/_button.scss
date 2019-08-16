@@ -1,0 +1,28 @@
+p.s-a-btn {
+  text-indent: 0;
+}
+
+.s-a-btn a {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  width: 160px;
+}
+
+.s-btn-continus, .s-btn-back {
+  background: #ff6600;
+}
+
+.s-btn-check, .s-btn-edit {
+  background: #282a2b;
+}
+
+a {
+  &.s-btn-back {
+  }
+  &.s-btn-edit {
+    color: #fff;
+  }
+}

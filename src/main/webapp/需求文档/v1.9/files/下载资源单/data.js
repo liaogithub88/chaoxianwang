@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"下载资源单.html",
+  "generationDate":new Date(1432872212674.78),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a3be4530c3534009853fef8fa4e23002",
+    "type":"Axure:Page",
+    "name":"下载资源单",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b58ca9e422aa4484a59214a8f70a5584",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":43},
+            "size":{
+              "width":932,
+              "height":477}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c1384ab5cd08480390dab4dbcd2b1b99",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":50,
+                  "y":43},
+                "size":{
+                  "width":932,
+                  "height":477}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/下载资源单/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b58ca9e422aa4484a59214a8f70a5584":{
+      "scriptId":"u0"},
+    "c1384ab5cd08480390dab4dbcd2b1b99":{
+      "scriptId":"u1"}}});

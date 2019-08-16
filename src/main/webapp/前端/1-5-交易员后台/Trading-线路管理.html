@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trading-线路管理</title>
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/member.css">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body class="rel">
+	<div class="header">
+		<div class="header-t">
+			<div class="w1200 auto"><img src="images/logo.png" alt="" class="mt10 l"><span class="logo-r l mt10 ml20">交易员后台</span>
+					<span class="r logo-rr"><a href="" class="selected">张三</a><a href="">欢迎您登录!</a><a href="">[ 注销 ]</a><a href="">帐号设置</a></span>
+			</div>
+		</div>
+		<div class="header-b">
+			<div class="w1200 auto">
+				<div class="nav">
+				<ul class="auto">
+					<li class="selected"><a href=""><span class="icn1"></span><i>我的工作台</i></a></li>
+					<li><a href=""><span class="icn2"></span><i>会员管理</i></a></li>
+					<li><a href=""><span class="icn3"></span><i>供应管理</i></a></li>
+					<li><a href=""><span class="icn4"></span><i>采购管理</i></a></li>
+					<li><a href=""><span class="icn5"></span><i>承运管理</i></a></li>
+					<li><a href=""><span class="icn6"></span><i>托运管理</i></a></li>
+					<li><a href=""><span class="icn7"></span><i>统计报表</i></a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="w1200 auto contant rel">
+		<div class="breadcrumbs"><a href="">交易员后台</a> > <a href="">我的工作台</a> > <a>待处理单据</a></div>
+		<!-- 左侧start -->
+		<div class="c-left">
+					<div class="about-t">
+					<span class="f20 g6 ml30 mt15 dib">承运管理</span>
+				</div>
+					<div class="l-menu">
+						<ul class="nav_li">
+					<li class="selected"><a href="">车辆管理</a>
+                    <ul>
+                            <li class="active"><a href="">待审核</a></li>
+                            <li><a href="">已通过</a></li>
+                            <li><a href="">未通过</a></li>
+                        </ul></li>
+					<li><a href="">线路管理</a>
+                    <ul>
+                            <li><a href="">待审核</a></li>
+                            <li><a href="">已通过</a></li>
+                            <li><a href="">未通过</a></li>
+                        </ul></li>
+					<li><a href="">网点管理</a></li>
+                    <li><a href="">竞价管理</a></li>
+                    <li><a href="">承运单管理</a></li>
+						</ul>
+					</div>
+				</div>
+		<!-- 左侧end -->
+		<!-- 右侧start -->
+		<div class="c-right c-right1">
+			<!-- 搜索列表 -->
+            <div class="search-member">
+                 <dl>
+                    <dd>
+                        <label for="">
+                            <p class="mt5">我的会员：</p>
+                            <select name="" id="" class="selectpicker w110" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        </label>
+                        <label for="">
+                            <p class="mt5">车辆类型：</p>
+                            <select name="" id="" class="selectpicker w110" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        </label>
+                        <label for="">
+                            <p class="mt5">发布时间：</p>
+                            <input type="text" class="input02 w120 h30 cus1">
+                        </label>
+                        <div class="cl"></div>
+                        <label for="">
+                            <p class="mt5">出发城市：</p>
+                            <div class="city-linkage">
+                                        <input type="text" class="input01 cus1">
+                                        <i class="fa fa-bars"></i>
+                                        <div class="inquiry-list">
+                                             <div class="lib-tab9">
+                                                <a href="javascript:;" class="closed">X</a>
+                                                <ul class="lib-menus">
+                                                    <li class="hover">常用</li>
+                                                    <li>省</li>
+                                                    <li>市</li>
+                                                </ul>
+                                                <div class="lib-contents">
+                                                    <div class="child-contents" style="display: block;">
+                                                        <div class="inquiry-span" index="0">
+                                                            <span data-name="北京-北京市1">深圳</span>
+                                                            <span data-name="北京-北京市2">深圳深圳</span>
+                                                            <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市4">深圳是</span>
+                                                            <span data-name="北京-北京市5">深圳</span>
+                                                            <span data-name="北京-北京市6">深圳</span>
+                                                            <span data-name="北京-北京市7">深圳</span>
+                                                            <span data-name="北京-北京市8">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳是</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="child-contents" style="display: none;">
+                                                        <div class="inquiry-span" index="1">
+                                                            <dl>
+                                                                <dt>A-G</dt>
+                                                                <dd>
+                                                                    <span data-name="北京-北京市1">深圳</span>
+                                                                    <span data-name="北京-北京市2">深圳深圳</span>
+                                                                    <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市4">深圳是</span>
+                                                                    <span data-name="北京-北京市5">深圳</span>
+                                                                    <span data-name="北京-北京市6">深圳</span>
+                                                                    <span data-name="北京-北京市7">深圳</span>
+                                                                    <span data-name="北京-北京市8">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳是</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                </dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>H-K</dt>
+                                                                <dd>
+                                                                    <span data-name="北京-北京市1">深圳</span>
+                                                                    <span data-name="北京-北京市2">深圳深圳</span>
+                                                                    <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市4">深圳是</span>
+                                                                    <span data-name="北京-北京市5">深圳</span>
+                                                                    <span data-name="北京-北京市6">深圳</span>
+                                                                    <span data-name="北京-北京市7">深圳</span>
+                                                                    <span data-name="北京-北京市8">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳是</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                </dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                    <div class="child-contents" style="display: none;">
+                                                        <div class="inquiry-span" index="2">
+                                                           <span data-name="北京-北京市1">深圳</span>
+                                                            <span data-name="北京-北京市2">深圳深圳</span>
+                                                            <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市4">深圳是</span>
+                                                            <span data-name="北京-北京市5">深圳</span>
+                                                            <span data-name="北京-北京市6">深圳</span>
+                                                            <span data-name="北京-北京市7">深圳</span>
+                                                            <span data-name="北京-北京市8">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳是</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </label>
+                        <label for="">
+                            <p class="mt5">到达城市：</p>
+                            <div class="city-linkage">
+                                        <input type="text" class="input01 cus1">
+                                        <i class="fa fa-bars"></i>
+                                        <div class="inquiry-list">
+                                             <div class="lib-tab9">
+                                                <a href="javascript:;" class="closed">X</a>
+                                                <ul class="lib-menus">
+                                                    <li class="hover">常用</li>
+                                                    <li>省</li>
+                                                    <li>市</li>
+                                                </ul>
+                                                <div class="lib-contents">
+                                                    <div class="child-contents" style="display: block;">
+                                                        <div class="inquiry-span" index="0">
+                                                            <span data-name="北京-北京市1">深圳</span>
+                                                            <span data-name="北京-北京市2">深圳深圳</span>
+                                                            <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市4">深圳是</span>
+                                                            <span data-name="北京-北京市5">深圳</span>
+                                                            <span data-name="北京-北京市6">深圳</span>
+                                                            <span data-name="北京-北京市7">深圳</span>
+                                                            <span data-name="北京-北京市8">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳是</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="child-contents" style="display: none;">
+                                                        <div class="inquiry-span" index="1">
+                                                            <dl>
+                                                                <dt>A-G</dt>
+                                                                <dd>
+                                                                    <span data-name="北京-北京市1">深圳</span>
+                                                                    <span data-name="北京-北京市2">深圳深圳</span>
+                                                                    <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市4">深圳是</span>
+                                                                    <span data-name="北京-北京市5">深圳</span>
+                                                                    <span data-name="北京-北京市6">深圳</span>
+                                                                    <span data-name="北京-北京市7">深圳</span>
+                                                                    <span data-name="北京-北京市8">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳是</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                </dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>H-K</dt>
+                                                                <dd>
+                                                                    <span data-name="北京-北京市1">深圳</span>
+                                                                    <span data-name="北京-北京市2">深圳深圳</span>
+                                                                    <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市4">深圳是</span>
+                                                                    <span data-name="北京-北京市5">深圳</span>
+                                                                    <span data-name="北京-北京市6">深圳</span>
+                                                                    <span data-name="北京-北京市7">深圳</span>
+                                                                    <span data-name="北京-北京市8">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                                    <span data-name="北京-北京市">深圳是</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                    <span data-name="北京-北京市">深圳</span>
+                                                                </dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                    <div class="child-contents" style="display: none;">
+                                                        <div class="inquiry-span" index="2">
+                                                           <span data-name="北京-北京市1">深圳</span>
+                                                            <span data-name="北京-北京市2">深圳深圳</span>
+                                                            <span data-name="北京-北京市3">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市4">深圳是</span>
+                                                            <span data-name="北京-北京市5">深圳</span>
+                                                            <span data-name="北京-北京市6">深圳</span>
+                                                            <span data-name="北京-北京市7">深圳</span>
+                                                            <span data-name="北京-北京市8">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳深圳深圳</span>
+                                                            <span data-name="北京-北京市">深圳是</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                            <span data-name="北京-北京市">深圳</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </label>
+                        <label for="">
+                        <span class="search-b" style="margin-top:0">
+                        <input type="submit" value="搜 索">
+                        <i></i>
+                    </span>
+                    </label>
+                    </dd>
+                </dl>
+            </div>
+            <div class="search-table">
+               <table>
+                    <thead>
+                          <tr style="background: rgb(233, 245, 255);">
+                            <th style="width: 60px;">承运商</th>
+                            <th style="width: 160px;">出发城市</th>
+                            <th style="width: 160px;">到达城市</th>
+                            <th style="width: 100px;">在途时间(天)</th>
+                            <th style="width: 100px;">车辆类型</th>
+                            <th style="width: 100px;">可配送商品</th>
+                            <th style="width: 140px;">计费标准</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>张三</td>
+                            <td>
+                                <a href="javascript:;" class="city-start g9">新疆——乌鲁木齐</a>
+                            </td>
+                            <td><a href="javascript:;" class="city-end g9">广东——深圳市</a></td>
+                            <td>5~7</td>
+                            <td>冷链车4.2米</td>
+                            <td>
+                                <p>冷冻食品</p>
+                                <p>冷藏食品</p>
+                            </td>
+                            <td>
+                                <p>5000.00 <span>元/车次</span></p>
+                                <p>2000.00 <span>元/票次</span></p>
+                                <p>200.00 <span>车/公里</span></p>
+                                <p>1000.00 <span>元/节点</span></p>
+                                <p>100.00 <span>元/件次</span></p>
+                            </td>
+                            <td>
+                                <a href="javascript:;" class="btn13">查看详情</a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+               </table>
+               <!-- page -->
+                <div class="list-page">
+                    <ul>
+                        <li><a href="javascript:;" class="prev-listPage prev-disable">上一页</a></li>
+                        <li><a href="javascript:;" id="hover-listPage">1</a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                        <li><a href="javascript:;" class="omitted">...</a></li>
+                        <li><a href="javascript:;">100</a></li>
+                        <li><a href="javascript:;" class="next-listPage">下一页</a></li>
+                        <li><span>到第</span><input type="text"><span>页</span></li>
+                        <li><a href="javascript:;" class="jump-page">确定</a></li>
+                    </ul>
+                </div>
+           </div>
+		</div>
+		<!-- 左侧end -->
+	</div>
+	<div class="footer">
+		<span class="f14 g3 mt25 dib">© 2014  深圳市超鲜食品有限公司  版权所有</span>
+	</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.popup_box.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/City-switch.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trading-会员管理-会员审核-托运商</title>
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/member.css">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body class="rel">
+	<div class="header">
+		<div class="header-t">
+			<div class="w1200 auto"><img src="images/logo.png" alt="" class="mt10 l"><span class="logo-r l mt10 ml20">交易员后台</span>
+					<span class="r logo-rr"><a href="" class="selected">张三</a><a href="">欢迎您登录!</a><a href="">[ 注销 ]</a><a href="">帐号设置</a></span>
+			</div>
+		</div>
+		<div class="header-b">
+			<div class="w1200 auto">
+				<div class="nav">
+				<ul class="auto">
+					<li class="selected"><a href=""><span class="icn1"></span><i>我的工作台</i></a></li>
+					<li><a href=""><span class="icn2"></span><i>会员管理</i></a></li>
+					<li><a href=""><span class="icn3"></span><i>供应管理</i></a></li>
+					<li><a href=""><span class="icn4"></span><i>采购管理</i></a></li>
+					<li><a href=""><span class="icn5"></span><i>承运管理</i></a></li>
+					<li><a href=""><span class="icn6"></span><i>托运管理</i></a></li>
+					<li><a href=""><span class="icn7"></span><i>统计报表</i></a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="w1200 auto contant rel">
+		<div class="breadcrumbs"><a href="">交易员后台</a> > <a href="">我的工作台</a> > <a>待处理单据</a></div>
+		<!-- 左侧start -->
+		<div class="c-left">
+					<div class="about-t">
+					<span class="f20 g6 ml30 mt15 dib">会员管理</span>
+				</div>
+					<div class="l-menu">
+						<ul class="nav_li">
+					<li class="selected"><a href="">
+
+会员管理
+</a></li>
+					<li><a href="">
+
+会员回收站
+</a></li>
+					<li><a href="">公司管理</a></li>
+                    <li><a href="">
+查询关联交易员
+</a></li>
+						</ul>
+					</div>
+				</div>
+		<!-- 左侧end -->
+		<!-- 右侧start -->
+		<div class="c-right c-right1">
+			<div class="member-main">
+                <!-- 基本资料 -->
+                <div class="member-column">
+                    <!-- 专属交易员 -->
+                    <div class="member-exclusive">
+                        <div class="exclusive-tit">我的专属交易员</div>
+                        <div class="exclusive-con">
+                            <div class="exclusive-area">华南区--张三</div>
+                            <div class="exclusive-tel">1345678910123</div>
+                            <a href="javascript:;" class="exclusive-qq"><img src="images/member-qq.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="member-tit"><p>基本资料</p></div>
+                     <div class="member-con">
+                        <div class="controls">
+                            <p>用户名：</p>
+                            <div class="basic-name">test6288</div>
+                        </div>
+                        <div class="controls">
+                            <p>昵称：</p>
+                            <input type="text" class="input03 w250">
+                        </div>
+                        <div class="controls">
+                            <p>头像：</p>
+                            <div class="upload-controls">
+                                <div class="upload-img head-img"><img src="images/upload-img01.png" alt=""></div>
+                                <input type="button" value="点击上传" class="upload-btn w100">
+                            </div>
+                            <div class="tip">
+                                <em>1、上传文件要求为清晰照片；尺寸为正方形</em>
+                                <em>2、照片要求格式为jpg、jpeg、gif或png，大小不要超过3M。</em>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <p>手机号：</p>
+                            <div class="basic-tel">18911111111</div>
+                            <a class="change-tel" href="javascript:;">更改手机</a>
+                        </div>
+                        <div class="controls">
+                            <p>邮箱：</p>
+                            <input type="text" class="input03 w250">
+                        </div>
+                        <div class="controls">
+                            <p>地区：</p>
+                           <select class="selectpicker w100" data-width="252">
+                                <option value="0">请选择</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="controls">
+                            <p>详细地址：</p>
+                            <input type="text" class="input03 w450">
+                        </div>
+                        <input type="submit" value="保存" class="btn01 submit">
+                     </div>
+                </div>
+             <div class="member-column">
+                 <!-- 银行账户信息 -->
+                <div class="member-tit">
+                <p>审核资料</p>
+            </div>
+                 <div class="lib-tab4">
+                <ul class="lib-menu">
+                    <li class="hover">托运商</li>
+<!--                     <li>采购商</li>
+                    <li>承运商</li>
+                    <li>托运商</li> -->
+                </ul>
+                <div class="lib-content">
+                    <div class="child-content" style="display: block;">
+                        <div class="controls" style="margin:10px 0">
+                            <p>公司名称：</p>
+                            <input type="text" value="深圳XXXXX有限公司" class="input03 w250 f12">
+                        </div>
+                        <div class="controls">
+                            <p>公司LOGO：</p>
+                            <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name l">公司LOGO</span>
+                                    <!-- <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1"> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <p class="f14">所在地：</p>
+                            <select name="" id="" class="selectpicker w100" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        <select name="" id="" class="selectpicker w100" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        <select name="" id="" class="selectpicker w100" data-width="150">
+                              <option value="">请选择</option>
+                              <option value="">类型一</option>
+                              <option value="">类型二</option>
+                              <option value="">类型三</option>
+                        </select>
+                        </div>
+                        <div class="controls">
+                            <p>详细地址：</p>
+                            <input type="text" value="广东省深圳市坪山区XXX路XXXX工业园" class="input03 w250 f12">
+                        </div>
+                        <div class="controls">
+                            <p>公司证件：</p>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name l">营业执照</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">组织机构代码</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">税务登记证</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">办公场所图片</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="w cl f12 g6">
+                                <span class="ml120 mt10 dib">（说明：图片可点击放大查看）</span>
+                            </div>
+                        </div>
+                        <div class="controls qt-zj">
+                            <p>其他证件：</p>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">证件一</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">证件二</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">证件三</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="basic-name">
+                                <div class="upload-controls">
+                                <div class="upload-img sfz-img">
+                                    <img src="images/upload-img02.png" alt="" bigsrc="images/upload-img02.png"><br>
+                                    <span class="pic-name">证件四</span>
+                                    <input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <p>企业法人姓名：</p>
+                            <input type="text" value="张三" class="input03 w250 f12">
+                        </div>
+                        <div class="controls">
+                            <p>运营者姓名：</p>
+                            <input type="text" value="张三" class="input03 w250 f12">
+                        </div>
+                        <div class="controls">
+                            <p>运营者职务：</p>
+                            <input type="text" value="市场部经理" class="input03 w250 f12">
+                        </div>
+                        <div class="controls">
+                            <p>联系方式：</p>
+                            <input type="text" value="13845678965" class="input03 w250 f12">
+                        </div>
+                        <div class="controls qt-zj">
+                            <p>授权书：</p>
+                            <div class="basic-name">
+<span class="g69b839">《供应商授权书》</span> <a href="" class="g69b839">在线预览</a>
+<input type="submit" value="重新上传" class="upload-btn submit w148 upload-btn1">
+</div>
+                        </div>
+                        <div class="controls">
+                            <p>审核意见：</p>
+                            <div class="basic-name"><select name="" id=""class="w100">
+                                <option value="">请选择</option>
+                                <option value="">请选择</option>
+                                <option value="">请选择</option>
+                            </select></div>
+                        </div>
+                        <div class="controls">
+                            <p>说明：</p>
+                            <div class="basic-name">
+                                <textarea name="" id="" class="sh-sm"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" value="提交" class="btn01 submit">
+                        <div class="controls">
+                            <span class="f18 g3 mt10 dib">操作日志</span>
+                            <div class="lib-tab5 xg-fb">
+                    <table width="100%">
+                        <thead>
+                              <tr>
+                                <th width="20%">时间</th>
+                                <th width="20%">操作人</th>
+                                <th width="60%">操作内容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2015/5/26 16:05:53</td>
+                                <td>交易员 李四</td>
+                                <td>修改会员邮箱</td>
+                            </tr>
+                            <tr>
+                                <td>2015/5/26 16:05:53</td>
+                                <td>交易员 李四</td>
+                                <td>修改会员邮箱</td>
+                            </tr>
+                            <tr>
+                                <td>2015/5/26 16:05:53</td>
+                                <td>交易员 李四</td>
+                                <td>修改会员邮箱</td>
+                            </tr>
+                            <tr>
+                                <td>2015/5/26 16:05:53</td>
+                                <td>交易员 李四</td>
+                                <td>修改会员邮箱</td>
+                            </tr>
+                            <tr>
+                                <td>2015/5/26 16:05:53</td>
+                                <td>交易员 李四</td>
+                                <td>修改会员邮箱</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                        </div>
+                    </div>
+                    <div class="child-content" style="display: none;">
+                        <div class="controls">
+                            <p>认证类型：</p>
+                            <div class="basic-name">test6288</div>
+                        </div>
+                         <div class="controls">
+                            <p>公司名称：</p>
+                            <div class="basic-name">深圳XXXXX有限公司</div>
+                        </div>
+                        <div class="controls">
+                            <p>所在地：</p>
+                            <div class="basic-name">广东省深圳市坪山区XXX路XXXX工业园</div>
+                        </div>
+                        <div class="controls">
+                            <p>企业法人：</p>
+                            <div class="basic-name">陈四</div>
+                        </div>
+                    </div>
+                    <div class="child-content" style="display: none;">
+                        <div class="controls">
+                            <p>认证类型：</p>
+                            <div class="basic-name">test6288</div>
+                        </div>
+                         <div class="controls">
+                            <p>公司名称：</p>
+                            <div class="basic-name">深圳XXXXX有限公司</div>
+                        </div>
+                        <div class="controls">
+                            <p>所在地：</p>
+                            <div class="basic-name">广东省深圳市坪山区XXX路XXXX工业园</div>
+                        </div>
+                        <div class="controls">
+                            <p>企业法人：</p>
+                            <div class="basic-name">陈四</div>
+                        </div>
+                    </div>
+                    <div class="child-content" style="display: none;">
+                        <div class="controls">
+                            <p>认证类型：</p>
+                            <div class="basic-name">test6288</div>
+                        </div>
+                         <div class="controls">
+                            <p>公司名称：</p>
+                            <div class="basic-name">深圳XXXXX有限公司</div>
+                        </div>
+                        <div class="controls">
+                            <p>所在地：</p>
+                            <div class="basic-name">广东省深圳市坪山区XXX路XXXX工业园</div>
+                        </div>
+                        <div class="controls">
+                            <p>企业法人：</p>
+                            <div class="basic-name">陈四</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+            </div>
+		</div>
+		<!-- 左侧end -->
+	</div>
+	<div class="footer">
+		<span class="f14 g3 mt25 dib">© 2014  深圳市超鲜食品有限公司  版权所有</span>
+	</div>
+<div class="right-message prev_con">
+    <div class="tit">最新提示消息<span></span></div>
+    <div class="con"><span class="f12 g3 mt60 dib">您有一条新的单据需要处理，<a href="" class="g146eb6">查看>></a></span></div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.popup_box.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+.list-page {
+  float: left;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  ul {
+    float: right;
+    height: 42px;
+    position: relative;
+    box-sizing: border-box;
+    li {
+      float: left;
+      display: block;
+      a {
+        display: block;
+        width: 42px;
+        height: 40px;
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        margin: 0 2px;
+        line-height: 40px;
+        text-align: center;
+        color: #666;
+        font-family: "微软雅黑";
+        box-sizing: border-box;
+      }
+      input {
+        display: block;
+        width: 44px;
+        height: 40px;
+        border: 1px solid #e6e6e6;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        box-sizing: border-box;
+      }
+      a {
+        &:hover {
+          background: #69b839;
+          border: 1px solid #69b839;
+          color: #fff;
+        }
+        &.omitted {
+          border: none;
+          cursor: default;
+          &:hover {
+            background: #fff;
+            color: #666;
+          }
+        }
+      }
+      span {
+        float: left;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+      }
+      input {
+        float: left;
+      }
+    }
+  }
+}
+
+#hover-listPage {
+  display: block;
+  background: #69b839;
+  border: 1px solid #69b839;
+  color: #fff;
+}
+
+.list-page ul li {
+  .prev-listPage {
+    width: 70px;
+    background: url("../images/icon-page01.png") no-repeat 10px center;
+    margin-right: 4px;
+    text-align: left;
+    text-indent: 20px;
+    &:hover {
+      background: url("../images/icon-page02.png") no-repeat 10px center #69b839;
+      border: 1px solid #69b839;
+      color: #fff;
+    }
+  }
+  .prev-disable {
+    background: url("../images/icon-page05.png") no-repeat 10px center #ececef;
+    color: #bbbbbb;
+    &:hover {
+      background: url("../images/icon-page05.png") no-repeat 10px center #ececef;
+      border: 1px solid #e6e6e6;
+      color: #bbbbbb;
+      cursor: default;
+    }
+  }
+  .next-listPage {
+    width: 70px;
+    margin-left: 4px;
+    background: url("../images/icon-page03.png") no-repeat 53px center;
+    text-align: left;
+    text-indent: 13px;
+    &:hover {
+      background: url("../images/icon-page04.png") no-repeat 53px center #69b839;
+      border: 1px solid #69b839;
+      color: #fff;
+    }
+  }
+  .next-disable {
+    background: url("../images/icon-page06.png") no-repeat 53px center #ececef;
+    color: #bbbbbb;
+    &:hover {
+      background: url("../images/icon-page06.png") no-repeat 53px center #ececef;
+      border: 1px solid #e6e6e6;
+      color: #bbbbbb;
+      cursor: default;
+    }
+  }
+}

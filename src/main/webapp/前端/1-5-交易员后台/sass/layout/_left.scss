@@ -1,0 +1,81 @@
+.c-left{
+  width: 220px;
+  float: left;
+  min-height: 800px;
+        h2{font-size: 26px;
+           color: #1063e5;
+           margin: 0;
+           padding:40px 0 0 30px;
+           line-height: 22px;
+           span{font-size: 12px;
+                color: #000;
+                display:inline-block;
+                width: 100%
+               }
+          }
+       }
+.nav_li li{ position: relative;
+            width: 205px;
+            margin: 0 0 15px 0;
+            float: right;
+            background:#efefef;
+            @include border-radius(5px);
+            span{
+                   width: 40px;
+                   height: 40px;
+                   text-align: center;
+                   display: inline-block;
+                   float: left;
+                   background: #b4b4b4;
+                   @include border-radius(5px);
+                   i{
+                      margin-top: 8px;
+                    }
+                }
+               a{
+                    width: 165px;
+                    height: 40px;
+                    color: #666;
+                    display: inline-block;
+                    font-size: 16px;
+                    line-height: 40px;
+                    text-indent: 36px;
+                    position: relative;
+                   i{
+                        color: #666;
+                        position: absolute;
+                        right:40px;
+                        top:14px;
+                    }
+                }
+              ul{
+                    float:right;
+                    width: 160px;
+                    display: none;
+                    li{
+                        width: 160px;
+                        margin-bottom: 0px;
+                        margin: 0;
+                        @extend .bordertop;
+                        @extend .borderbottom;
+                        a{
+                            width: 148px;
+                            text-align:left;
+                            text-indent:28px;
+                            font-size: 14px;
+                         }
+                        i{
+                            color: #666;
+                            position:relative;
+                            top:5px;
+                            float: left;
+                            left: 20px;
+                         } 
+                      }
+                }
+              &:hover ul{
+                    display: block;
+                }
+          }
+.nav_li li.selected a,.nav_li li:hover a{color: #1b2c22}
+.nav_li li.selected span,.nav_li li:hover span{background: #1b2c22}
