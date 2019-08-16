@@ -1,5 +1,5 @@
 package cn.sz.com.user.service.impl;
 
-public class TestServiceImpl {
+public class UsersServiceImpl {
 
 }

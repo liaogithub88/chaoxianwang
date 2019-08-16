@@ -38,9 +38,8 @@
 	</bean>
 	<!-- 这里主要配置mapper扫描器，我们只需要在使用的时候通过 @AutoWired直接访问dao层的接口就行 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="cn.sz.lyl.dao"></property>
-		<property name="sqlSessionFactoryBeanName"
-			value="sqlSessionFactory" />
+		<property name="basePackage" value="cn.sz.com.user.dao"></property>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 	<!-- 文件上传配置文件 -->
 	<bean id="multipartResolver"
